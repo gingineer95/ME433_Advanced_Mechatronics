@@ -3,6 +3,7 @@ import numpy as np
 
 dt = 1.0/10000.0 # 10kHz
 t = np.arange(0.0, 1.0, dt) # 10s
+
 # a constant plus 100Hz and 1000Hz
 s = 4.0 * np.sin(2 * np.pi * 100 * t) + 0.25 * np.sin(2 * np.pi * 1000 * t) + 25
 
